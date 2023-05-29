@@ -1,0 +1,73 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paphawarin</title>
+</head>
+<body>
+    <h1>Welcome to Paphawarin homepage</h1>
+    <img src="https://em-content.zobj.net/thumbs/120/emojidex/112/high-brightness-symbol_1f506.png">
+    <img src="https://em-content.zobj.net/thumbs/120/docomo/205/balloon_1f388.png">
+    <p id="test"></p>
+    <script>
+        window.alert("Welcome to my website");
+        document.getElementById("test").innerHTML = 4+5;
+        console.log(4+15);
+        var age= 16;
+        var lastName= "Thumgthong";
+        var cars= ["Toyota", "Honda", "BMW"];
+        var me= {firstName:"Paphawarin",lastName:"Chotwichai"}; 
+        //โชว์ตัวแปร var   
+        window.alert(age);
+        window.alert(lastName);
+        window.alert(cars);
+        window.alert(me);
+        window.alert(JSON.stringify(me));
+        console.log(me)
+
+    //<button onclick="this.innerHTML=Date()">The time is?</button>
+        function myFuntion(a,b)
+    {
+        x=a*b;
+        alert("ผลลัพธ์ของ a*b =" + x);
+    }
+        function myFuntion( name1,name2)
+    {
+        alert("Welcome " + name1 + ",คุณ" + name2);
+    }
+    //if condition
+        a=1;
+        if(a==1) {
+        alert("a มีค่าเท่ากับ1");}
+
+    //if else condition
+        a=0;
+        if(a==1) {
+        alert("a มีค่าเท่ากับ1");}
+        else{
+        alert("a มีค่าไม่เท่ากับ1");}
+
+    //else if condition
+        a=2;
+        if(a==1) {
+        alert("a มีค่าเท่ากับ1");}
+        else if(a==2){
+        alert("a มีค่าเท่ากับ2");} 
+        else{
+        alert("a มีค่าไม่เท่ากับ1");} 
+
+        
+    </script>
+    
+
+    <button onclick="myFuntion('','ปภาวรินทร์')">
+        ต้อนรับ
+    </button>
+<button onclick="this.innerHTML=Date()">
+        Day
+</button>  
+
+    
+</body>
+</html>
